@@ -12,11 +12,5 @@
 
 <p align="center">
 
-  <img src="https://telegra.ph/file/50cd1ef8bb832422356e1.jpg" alt="🅱🅰🅰🅿 🅹🅸🅸  SPAMBOT">
-
-</p>
-
-## ⚡ ᗪᗴᑭᒪOY Oᑎ ᕼᗴᖇOKU
-
-[![♡︎ᗪᗴᑭᒪOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/baapjiiiiii/Baapjiispam25)
-
+  <img src="https://telegra.ph/file/4af00cb91608e93e3ead9.jpg"alt="𝗔𝗡𝗦𝗛𝗨𝗟 SPAMBOT">
+</p> 
