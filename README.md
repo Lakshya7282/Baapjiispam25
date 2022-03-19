@@ -12,5 +12,4 @@
 
 <p align="center">
 
-  <img src="https://telegra.ph/file/4af00cb91608e93e3ead9.jpg"alt="𝗔𝗡𝗦𝗛𝗨𝗟 SPAMBOT">
-</p> 
+  
